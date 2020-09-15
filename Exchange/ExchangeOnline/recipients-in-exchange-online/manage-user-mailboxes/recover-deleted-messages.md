@@ -76,10 +76,6 @@ Search-Mailbox "April Stewart" -SearchQuery "from:'Ken Kwok' AND seattle" -Targe
 
 For detailed syntax and parameter information, see [Search-Mailbox](https://docs.microsoft.com/powershell/module/exchange/search-mailbox).
 
-### How do you know this worked?
-
-To verify that you have successfully searched the messages you want to recover, log on to the discovery mailbox you selected as the target mailbox and review the search results.
-
 ## Step 3: Restore recovered items
 
 You need to be assigned permissions before you can perform this procedure or procedures. To see what permissions you need, see the "In-Place eDiscovery" entry in the [Feature permissions in Exchange Online](../../permissions-exo/feature-permissions.md) topic.
@@ -98,10 +94,6 @@ Search-Mailbox "Discovery Search Mailbox" -SearchQuery "from:'Ken Kwok' AND seat
 ```
 
 For detailed syntax and parameter information, see [Search-Mailbox](https://docs.microsoft.com/powershell/module/exchange/search-mailbox).
-
-### How do you know this worked?
-
-To verify that you have successfully recovered messages to the user's mailbox, have the user review messages in the target folder you specified in the above command.
 
 ## More information
 
