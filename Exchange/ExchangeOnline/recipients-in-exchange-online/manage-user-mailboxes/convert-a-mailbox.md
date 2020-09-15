@@ -63,17 +63,5 @@ You can use the following values for the _Type_ parameter:
 
 For detailed syntax and parameter information, see [Set-Mailbox](https://docs.microsoft.com/powershell/module/exchange/set-mailbox).
 
-## How do you know this worked?
-
-To verify that you have successfully converted the mailbox, run the following command in Exchange Online PowerShell:
-
-```PowerShell
-Get-Mailbox -Identity MarketingDept1 | Format-List RecipientTypeDetails
-```
-
-The value for _RecipientTypeDetails_ should be `UserMailbox`.
-
-For detailed syntax and parameter information, see [Get-Mailbox](https://docs.microsoft.com/powershell/module/exchange/get-mailbox).
-
 > [!TIP]
 > Having problems? Ask for help in the Exchange forums. Visit the forums at [Exchange Online](https://social.technet.microsoft.com/forums/msonline/home?forum=onlineservicesexchange) or [Exchange Online Protection](https://social.technet.microsoft.com/forums/forefront/home?forum=FOPE).
