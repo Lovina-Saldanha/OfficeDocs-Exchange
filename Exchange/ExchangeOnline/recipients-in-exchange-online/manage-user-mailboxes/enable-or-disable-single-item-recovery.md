@@ -76,16 +76,6 @@ This example disables single item recovery for the mailbox of Ayla Kol.
 Set-Mailbox -Identity "Ayla Kol" -SingleItemRecoveryEnabled $false
 ```
 
-## How do you know this worked?
-
-To verify that you've enabled single item recovery for a mailbox and display the value for how long deleted items will be retained (in days), run the following command.
-
-```PowerShell
-Get-Mailbox <Name> | Format-List SingleItemRecoveryEnabled,RetainDeletedItemsFor
-```
-
-You can use this same command to verify that single item recovery is disabled for a mailbox.
-
 ## More information
 
 - To learn more about single item recovery, see [Recoverable Items folder in Exchange Online](../../security-and-compliance/recoverable-items-folder/recoverable-items-folder.md). To recover messages purged by the user before the deleted item retention period expires, see [Recover deleted messages in a user's mailbox](recover-deleted-messages.md).
