@@ -35,7 +35,7 @@ To begin, you will need to sign in to Microsoft 365 or Office 365 with your work
 
 2. Click to expand **Users**, then select **Active Users**.
 
-3. Select **Add** ![Add](../../media/ITPro_EAC_AddIcon.png) to add a user. The **Create a new user account** dialog will open.
+3. Select **Add** ![Add](../../media/ITPro_EAC_AddIcon.png) to add a user. The **Create a new user account** dialog is displayed.
 
 4. In the **Create a new user account** dialog, enter a **Display name** and a **username**. The display name will appear in the Sender field for all Clutter notifications sent to your users. A new temporary password is generated for the new user account. Click **Create** to create the account.
 
